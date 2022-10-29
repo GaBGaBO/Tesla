@@ -1,0 +1,129 @@
+
+*{
+   padding:3px;
+   margin:3px;
+   transition:all 0.4s;
+   box-sizing:border-box;
+}
+/* ეს არის  მთავარი ფეიჯის მანქანის ფოტო */
+body{
+  background-image:url("tesli222.jfif");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-y:58px;
+}
+/* ეხლა ვაკეთებთ თესლა თავიდან რომ აქვს ლინკი მის კოდს :)--> */
+.text{
+  text-align: center;
+}
+.text p a{
+   color:grey;
+   font-size:17px;
+}
+/* tesla code */
+.TeslaText h2 a {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: cursive;
+    /* font-family: Georgia, serif; */
+    color:black;
+}
+.TeslaText h2{
+  margin-top:15px;
+  margin-left:20px;
+}
+
+/* ტესლას მანქანების ჩამონათვალი */
+.TeslaCars ul li a{
+  text-decoration: none;
+  color:black;
+  font-size:17px;
+  font-family: Georgia, serif;
+}
+.TeslaCars ul li{
+  list-style-type: none;
+  position:relative;
+  margin-top:-62px;
+}
+.TeslaCars ul{
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+/* Model 3 ro weria shuashi text - code */
+
+.Model3{
+  text-align: center;
+  font-size:23px;
+  margin-top:-10px;
+ font-family: cursive; /* ჰ */
+}
+.Model3 h1{
+  color:#454545;
+}
+.Model3 p span{
+  text-decoration: underline;
+  color:grey;
+ 
+}
+.Model3{
+cursor:pointer;
+}
+.Model3 p{
+  margin-top:-10px;
+  font-size:18px
+
+
+}
+/* Menu, show account - code */
+.MainMenu ul li{
+  list-style-type: none;
+}
+.MainMenu ul li a{
+  text-decoration: none;
+  color:black;
+  font-family: sans-serif;
+}
+.MainMenu ul{
+  position: absolute;
+  right:1px;
+  top:1px;
+  margin:80px 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-size:17px;
+}
+/*ღილაკებზე მანიპულაცია */
+
+.button{
+  position:relative;
+  text-align: center;
+  margin-top:350px;
+}
+.button .btn{
+   background-color:#454545;
+   color:white;
+   border:none;
+   width:250px;
+   height:40px;
+   border-radius:20px;
+}
+.button button{
+  background-color:#fff;
+  color:grey;
+  border:none;
+  width:250px;
+  height:40px;
+  border-radius:20px;
+cursor:pointer;
+}
+.icons{
+  text-align: center;
+  margin-top:30px;
+  font-size:25px;
+  color:grey;
+}
+
